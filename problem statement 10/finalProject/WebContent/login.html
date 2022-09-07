@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="US-ASCII">
+<title>Login Page</title>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+
+	<form action="LoginServlet" method="post">
+
+		Username: <input type="text" name="user"> <br> Password:
+		<input type="password" name="pwd"> <br>
+		<div class="g-recaptcha"
+			data-sitekey="6LdYUN0hAAAAANt0Jjfk5Gx_1P-PUFmk-7iB1Cvc"></div>
+		<br> <input type="submit" name="submit" value="Login">
+	</form>
+</body>
+</html>
